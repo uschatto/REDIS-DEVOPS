@@ -29,7 +29,6 @@ app.use('/fact', factRouter);
 setInterval(function(){
  client.lpop("storage", async function(err, value) {
      if(value){
-	 console.log("I am here");
          await db.cat(value);
      }
  });
