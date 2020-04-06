@@ -17,3 +17,4 @@
 > *Describe the Circuit Breaker and Bulkhead pattern.*
 <p align="justify">The Bulkhead pattern is a type of application design that is tolerant of failure. In a bulkhead architecture, elements of an application are isolated into pools so that if one fails, the others will continue to function.  This design helps to isolate failures, and allows you to sustain service functionality for some consumers, even during a failure. The Circuit Breaker pattern can prevent an application from repeatedly trying to execute an operation that's likely to fail. Allowing it to continue without waiting for the fault to be fixed or wasting CPU cycles while it determines that the fault is long lasting. The Circuit Breaker pattern also enables an application to detect whether the fault has been resolved. If the problem appears to have been fixed, the application can try to invoke the operation.</p>
 
+[SCREENCAST](https://drive.google.com/open?id=1EBAWwbDIfxpqYPiuM7W0p4EUMyBmLezJ)
